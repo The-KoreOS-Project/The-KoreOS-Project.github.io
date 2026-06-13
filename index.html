@@ -1,121 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="KoreOS is an independent Linux Distribution designed for daily use, offering stability, customization, and a user-focused experience.">
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="KoreOS is an independent Linux Distribution designed for daily use, offering stability, customization, and a user-focused experience."
+    />
+    <link rel="stylesheet" href="style.css" />
 
-  <!-- Icons (Font Awesome) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.20/index.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/fraunces@5.2.9/index.css">
+    <!-- Icons (Font Awesome) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/jetbrains-mono@5.0.20/index.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fontsource/fraunces@5.2.9/index.css"
+    />
 
-  <link rel="icon" type="image/png" href="icon.png">
-  <title>KoreOS - Linux-Based Operating System</title>
-</head>
+    <link rel="icon" type="image/png" href="icon.png" />
+    <title>KoreOS - Linux-Based Operating System</title>
+  </head>
 
-<body>
+  <body>
+    <header class="topbar">
+      <div class="logo">
+        <img src="icon.png" alt="KoreOS logo" />
+        <span>KoreOS</span>
+      </div>
 
-<header class="topbar">
-  <div class="logo">
-    <img src="icon.png" alt="KoreOS logo">
-    <span>KoreOS</span>
-  </div>
+      <nav class="nav-links">
+        <a href="https://The-KoreOS-Project.github.io/Install">Install</a>
+        <a href="https://The-KoreOS-Project.github.io/Manual">Manual</a>
+        <!--<a href="https://The-KoreOS-Project.github.io/News">News</a>-->
+        <a href="mailto:nixdev888@gmail.com">Contact</a>
+      </nav>
+    </header>
 
-  <nav class="nav-links">
-    <a href="https://Nixxy-lv.github.io/KorWeb/Install">Install</a>
-    <a href="https://Nixxy-lv.github.io/KorWeb/Manual">Manual</a>
-    <!--<a href="https://Nixxy-lv.github.io/KorWeb/News">News</a>-->
-    <a href="mailto:nixdev888@gmail.com">Contact</a>
-  </nav>
-</header>
+    <!-- HERO -->
+    <section class="hero fade">
+      <div class="hero-card">
+        <h1>KoreOS: An Indie Linux Distro</h1>
+        <!-- BUG: Font won't apply and isn't computed -->
+        <p>
+          KoreOS is an independent systemd-free Linux distribution designed to
+          be adapt to use as daily drive and comparable to bigger Distros of the
+          Linux Family. The KoreOS Distro isn't in developement yet, but don't
+          worry! The developement will start soon. Any release can be found on
+          the Install page (link in topbar) or the official GitHub
+          repository.<br />The name KoreOS comes from Core, which in my native
+          language means "Heart".
+        </p>
+      </div>
+    </section>
 
-<!-- HERO -->
-<section class="hero fade">
-  <div class="hero-card">
-    <h1>KoreOS: An Indie Linux Distro</h1> <!-- BUG: Font won't apply and isn't computed -->
-    <p>
-    KoreOS is an independent systemd-free Linux distribution designed to be adapt to use as daily drive and comparable to bigger Distros of the Linux Family. The KoreOS Distro isn't in developement yet, but don't worry! The developement will start soon. Any release can be found on the Install page (link in topbar) or the official GitHub repository.<br>The name KoreOS comes from Core, which in my native language means "Heart".
-    </p>
-  </div>
-</section>
-
-<!-- INSTALL REDIRECT -->
-<div class="down-btn fade">
-  <a href="https://Nixxy-lv.github.io/KorWeb/Install">
-    <i class="fa-solid fa-download"></i>Download
-  </a>
-</div>
-
-<!-- SCREENSHOT -->
-<section class="fade">
-  <div class="scrsht"></div>
-</section>
-
-<!-- FEATURES -->
-<section class="features fade">
-  <div class="feature-container">
-
-    <div class="feature">
-      <div class="icon"><img src="listen.jpg"></div>
-      <h3>We listen</h3>
-      <p>Don't be afraid to ask features! Your ideas matter.</p>
+    <!-- INSTALL REDIRECT -->
+    <div class="down-btn fade">
+      <a href="https://The-KoreOS-Project.github.io/Install">
+        <i class="fa-solid fa-download"></i>Download
+      </a>
     </div>
 
-    <div class="feature">
-      <div class="icon"><img src="customization.png"></div>
-      <h3>Customizable</h3>
-      <p>Customization is a big part of KoreOS.</p>
-    </div>
+    <!-- SCREENSHOT -->
+    <section class="fade">
+      <div class="scrsht"></div>
+    </section>
 
-    <div class="feature">
-      <div class="icon"><img src="bestofworlds.jpg"></div>
-      <h3>Scheduled Updates</h3>
-      <p>Stable updates, planned and predictable.</p>
-    </div>
+    <!-- FEATURES -->
+    <section class="features fade">
+      <div class="feature-container">
+        <div class="feature">
+          <div class="icon"><img src="listen.jpg" /></div>
+          <h3>We listen</h3>
+          <p>Don't be afraid to ask features! Your ideas matter.</p>
+        </div>
 
-  </div>
-</section>
+        <div class="feature">
+          <div class="icon"><img src="customization.png" /></div>
+          <h3>Customizable</h3>
+          <p>Customization is a big part of KoreOS.</p>
+        </div>
 
-<!-- QUESTIONS -->
-<section class="questions fade">
-  <h2 align="center">What are the download options?</h2>
-  <p align="center">You can choose between:<br>  • <span style="color: #1a73e8">KoreOS-Nightly</span> : Early releases that may contain bugs (exists as a branch of the main repo).<br>  • <span style="color: #1a73e8">KoreOS</span> : Tested releases that are more safe but may be slower (not much slower but it's worth noting).</p>
+        <div class="feature">
+          <div class="icon"><img src="bestofworlds.jpg" /></div>
+          <h3>Scheduled Updates</h3>
+          <p>Stable updates, planned and predictable.</p>
+        </div>
+      </div>
+    </section>
 
-  <h2 align="center">When will developement start?</h2>
-  <p align="center">The developement will start when i will get a PC as i currently don't have one. For more info you can look at the README in the KoreOS repository.</p>
-</section>
+    <!-- QUESTIONS -->
+    <section class="questions fade">
+      <h2 align="center">What are the download options?</h2>
+      <p align="center">
+        You can choose between:<br />
+        • <span style="color: #1a73e8">KoreOS-Nightly</span> : Early releases
+        that may contain bugs (exists as a branch of the main repo).<br />
+        • <span style="color: #1a73e8">KoreOS</span> : Tested releases that are
+        more safe but may be slower (not much slower but it's worth noting).
+      </p>
 
-<!-- FOOTER -->
-<footer class="footer fade">
-  <div class="footer-content">
-    <h3>KoreOS</h3>
-    <p>Follow the project</p>
+      <h2 align="center">When will developement start?</h2>
+      <p align="center">
+        The developement will start when i will get a PC as i currently don't
+        have one. For more info you can look at the README in the KoreOS
+        repository.
+      </p>
+    </section>
 
-    <div class="socials">
-      <a href="https://github.com/Nixxy-lv/KoreOS"><i class="fa-brands fa-github"></i></a>
-      <a href="https://discord.gg/JJ9jdAQJpT"><i class="fa-brands fa-discord"></i></a>
-      <a href="mailto:nixdev888@gmail.com"><i class="fa-solid fa-envelope"></i></a>
-    </div>
+    <!-- FOOTER -->
+    <footer class="footer fade">
+      <div class="footer-content">
+        <h3>KoreOS</h3>
+        <p>Follow the project</p>
 
-    <div class="copy">
-      © 2026 KoreOS
-    </div>
-  </div>
-</footer>
+        <div class="socials">
+          <a href="https://github.com/The-KoreOS-Project/KoreOS"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="https://discord.gg/JJ9jdAQJpT"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a href="mailto:nixdev888@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
 
-<!-- SCROLL FADE-->
-<script>
-const observer = new IntersectionObserver((entries) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("show");
-    }
-  });
-});
+        <div class="copy">© 2026 KoreOS</div>
+      </div>
+    </footer>
 
-document.querySelectorAll(".fade").forEach(el => observer.observe(el));
-</script>
+    <!-- SCROLL FADE-->
+    <script>
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+          }
+        });
+      });
 
-</body>
+      document.querySelectorAll(".fade").forEach((el) => observer.observe(el));
+    </script>
+  </body>
 </html>
