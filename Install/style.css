@@ -68,7 +68,8 @@ body {
   padding: 0 20px;
 }
 .uni-rel {
-  max-width: 900px;
+  width: 1100px;
+  max-width: 1100px;
   padding: 50px 40px;
   border-radius: 16px;
 
