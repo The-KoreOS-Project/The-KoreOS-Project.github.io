@@ -34,7 +34,8 @@
 
         <div class="container">
             <div class="st-intro">
-                <p style="font-family: Segoe UI, sans-serif; text-transform: uppercase;">Tested build</p>
+                <br>
+                <p style="font-family: Segoe UI, sans-serif; text-transform: uppercase;">Newest build</p>
                 <h1 style="font-family: Fraunces, sans-serif; font-size: 46px;">KoreOS's Latest Release.</h1>
             </div>
 
@@ -42,47 +43,35 @@
                 <div class="uni-rel">
                     <p style="font-family: Manrope, sans-serif; text-transform: uppercase;
                     ">Latest Release</p>
-                    <h1>0.0.0</h1>
-                    <p>0.0.0-Pre-Developement  Published on: ?M? DD, YYYY</p>
+                    <h1>0.1.2</h1>
+                    <p>0.1.2-Pre-Developement  Published on: July 26th, 2026</p>
+                    <h2>Requirements</h2>
                     <ul>
-                        <li> No release has been made yet</li>
-                        <p>KoreOS hasn't started developement yet but some minimal changes can be found on KoeOS's official repository.</p>
+                        <li> qemu </li>
+                        <li> qemu-system-x86_64 </li>
                     </ul>
+                    <h2>How to use</h2>
+                    <p>In the directory with the .iso file, run:</p>
+                    <pre>qemu-system-x86_64 -cdrom KoreOS-v0.1.2.iso -m 2G</pre>
+                    <p>This starts a QEMU VM that runs the .iso with 2GB of RAM assigned to it.</p>
+                    <h2>What's new</h2>
+                    <ul>
+                        <li> root user renamed to Kore</li>
+                        <li> cleaned Linux's build script and stopped forcing CFLAGS </li>
+                        <li> added /etc/os-release </li>
+                    </ul>
+                    <p>Soon i'm planning to fix ACPI problems.</p>
                     <br>
                     <br>
                     <div class="gh-down">
-                        <a class="down-btn fade" href="./test.txt" download> <!-- Change to https://github.com/The-KoreOS-Project/KoreOS/releases/download/RELEASENAME/ISOFILE -->
+                        <a class="down-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/download/v0.1.2/KoreOS-v0.1.2.iso" download>
                             <i class="fa-solid fa-download"></i> Download .iso
                         </a>
-                        <a class="gh-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/tag/0.0.0">View Github</a>
+                        <a class="gh-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/tag/v0.1.2">View Github</a>
                     </div>
                 </div>
             </div>
 
-            <div class="nt-intro">
-                <p style="font-family: Segoe UI, sans-serif; text-transform: uppercase;">Unstable build</p>
-                <h1 style="font-family: Fraunces, sans-serif; font-size: 46px;">KoreOS's Nightly Release.</h1>
-            </div>
-
-            <div class="uni fade">
-                <div class="uni-rel">
-                    <p style="font-family: Manrope, sans-serif; text-transform: uppercase;
-                    ">Nightly Release</p>
-                    <h1>Nighly Build (YYYY/RRRRR)</h1> <!-- Remove slashe | R = Release numbers-->
-                    <p>Nightly  Published on: ??? DD, YYYY</p>
-                    <ul>
-                        <li> No release has been made yet</li>
-                        <p>KoreOS hasn't started developement yet but some minimal changes can be found on KoreOS's official repository.</p>
-                    </ul>
-                    <br>
-                    <br>
-                    <div class="gh-down">
-                        <a class="down-btn fade" href="./test.txt" download> <!-- Change to https://github.com/The-KoreOS-Project/KoreOS/releases/download/nightly/ISOFILE -->
-                            <i class="fa-solid fa-download"></i> Download .iso
-                        </a>
-                        <a class="gh-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/tag/nightly">View Github</a>
-                    </div>
-                </div>
             </div>
         </div>
 
