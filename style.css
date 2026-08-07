@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "JetBrains Mono", monospace, sans-serif;
-  background-color: #0f1115;
+  background-color: #121213;
   color: #f1f3f5;
 }
 
@@ -11,7 +11,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 25px 40px;
-  background-color: #171a21;
+  background-color: #121212;
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.4);
   position: sticky;
   top: 0;
@@ -63,11 +63,11 @@ body {
 .hero-card {
   max-width: 900px;
   padding: 50px 40px;
-  border-radius: 16px;
+  border-radius: 8px;
 
   background:
-    radial-gradient(circle at top left, rgba(77, 163, 255, 0.34), transparent 50%),
-    radial-gradient(circle at bottom right, rgba(77, 163, 255, 0.16), transparent 60%),
+    radial-gradient(circle at top left, rgba(22, 82, 128, 0.17), transparent 40%),
+    radial-gradient(circle at bottom right, rgba(22, 82, 128, 0.08), transparent 50%),
     #181c24;
 
   background-size: 220% 220%;
@@ -144,6 +144,25 @@ p {
   transform: translateY(-2px);
 }
 
+/* SCREENSHOT */
+.scrsht_title {
+  display: flex;
+  justify-content: center;
+  font-family: "Fraunces", "JetBrains Mono", sans-serif;
+}
+
+.scrsht {
+  display: flex;
+  justify-content: center;
+}
+
+.scrsht img {
+  width: 662px;
+  height: 363px;
+  border: 2px solid #444444;
+  border-radius: 8px;
+}
+
 /* FEATURES */
 .features {
   padding: 100px 20px;
@@ -190,7 +209,7 @@ p {
 
 /* FOOTER */
 .footer {
-  background: linear-gradient(135deg, #151922, #10141b);
+  background: linear-gradient(135deg, #131223, #121212);
   border-top: 1px solid #2b3542;
   padding: 60px 20px;
   margin-top: 100px;
