@@ -43,29 +43,27 @@
                 <div class="uni-rel">
                     <p style="font-family: Manrope, sans-serif; text-transform: uppercase;
                     ">Latest Release</p>
-                    <h1>0.1.4.1</h1>
-                    <p>0.1.4.1-Pre-Developement  Published on: August 21st, 2026</p>
-                    <h2>Requirements</h2>
-                    <ul>
-                        <li> qemu </li>
-                        <li> qemu-system-x86_64 </li>
-                    </ul>
+                    <h1>0.1.5</h1>
+                    <p>0.1.5-Pre-Developement  Published on: October 8th, 2026</p>
                     <h2>How to use</h2>
                     <p>In the directory with the .iso file, run:</p>
-                    <pre>qemu-system-x86_64 -cdrom KoreOS-v0.1.4.1.iso -m 1024</pre>
+                    <pre>qemu-system-x86_64 -cdrom KoreOS-v0.1.5.iso -m 1024</pre>
                     <p>This starts a QEMU VM that runs the .iso with 1GiB of RAM assigned to it.</p>
                     <h2>Changelog</h2>
                     <ul>
-                        <li> Upgraded Fastfetch package to its newest version (2.65.1 -> 2.67.1) </li>
+                        <li> Added working, provisional "shutdown" command (used forced poweroff, orderly shutdown handling is not yet implemented) </li>
+                        <li> Upgraded Fastfetch package to its newest version (2.67.1 -> 2.69.0) </li>
+                        <li> Upgraded BusyBox package to its newest version (1.35.0 -> 1.38.0) </li>
                     </ul>
-                    <p>Soon i'm planning to fix ACPI problems. (i still don't suggest to run it on real hardware yet)</p>
+                    <h2>Can KoreOS run outside a VM now?</h2>
+                    <p>Not really. KoreOS may be able to run on real hardware but it has not been tested for it yet. It is recommended to keep using it on a VM before it gets tested on real hardware</p>
                     <br>
                     <br>
                     <div class="gh-down">
-                        <a class="down-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/download/v0.1.4.1/KoreOS-v0.1.4.1.iso" download>
+                        <a class="down-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/download/v0.1.5/KoreOS-v0.1.5.iso" download>
                             <i class="fa-solid fa-download"></i> Download .iso
                         </a>
-                        <a class="gh-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/tag/v0.1.4.1">View Github</a>
+                        <a class="gh-btn fade" href="https://github.com/The-KoreOS-Project/KoreOS/releases/tag/v0.1.5">View on Github</a>
                     </div>
                 </div>
             </div>
